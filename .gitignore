@@ -10,3 +10,6 @@ jupyter-logging-widget/static/
 
 # OS X
 .DS_Store
+
+# PyCharm
+.idea/
