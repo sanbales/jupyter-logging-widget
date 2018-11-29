@@ -1,7 +1,7 @@
 jupyter-logging-widget
 ======================
 
-A Jupyter widget for capturing and monitoring logs.
+A Jupyter widget for capturing and monitoring loggers.
 
 Installation
 ------------
@@ -24,3 +24,10 @@ To use, import and instantiate the widget in your Jupyter notebook:
 
     $ from ipyw_logger import LoggerWidget
     $ LoggerWidget()
+
+TODOs
+-----
+
+* Improve the performance of the viewer (potentially implement throttling)
+* Add documentation
+* Add tests
