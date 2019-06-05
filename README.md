@@ -8,10 +8,10 @@ Installation
 
 To install use pip:
 
-    $ pip install jupyter-logging-widget
+    $ pip install git+https://github.com/sanbales/jupyter-logging-widget.git
 
 
-For a development installation (requires npm),
+For a development installation,
 
     $ git clone https://github.com/sanbales/jupyter-logging-widget.git
     $ cd jupyter-logging-widget
