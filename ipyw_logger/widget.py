@@ -19,6 +19,18 @@ def get_active_loggers():
 
 @ipyw.register
 class LoggerWidget(ipyw.VBox):
+    """Displays python logs in an IPython/Jupyter widget.
+
+    Parameters
+    ----------
+    level: int
+        the logging level to start the logger on
+
+    height: str
+        the layout height of the widget
+
+    """
+
     level = trt.Instance(
         ipyw.Dropdown,
         kw=dict(
