@@ -81,7 +81,7 @@ class LoggerWidget(ipyw.VBox):
         self.format_control = ipyw.HBox([
             ipyw.ToggleButton(False, description=name, tooltip=tooltip)
             for name, tooltip in format_options.items()
-        ], layout=ipyw.Layout(heigh="40px"))
+        ], layout=ipyw.Layout(height="100px"))
         for button in self.format_control.children:
             if button.description in defaults:
                 button.value = True
@@ -133,12 +133,12 @@ class LoggerWidget(ipyw.VBox):
                 ipyw.Label("", layout=ipyw.Layout(width="50px")),
                 level_selector,
                 clear_btn,
-            ], layout=ipyw.Layout(height="40px")),
+            ], layout=ipyw.Layout(height="100px")),
             self.output,
         ])
         self.update_warnings()
         self.update_options()
-        self.selector.label = self.logger.name
+        # self.selector.label = self.logger.name
         self.update_logger()
         self.update_level()
 
