@@ -47,6 +47,7 @@ setup_args = {
     'author': 'Santiago Balestrini-Robinson',
     'author_email': 'sanbales@gmail.com',
     'url': 'https://github.com/sanbales/jupyter-logging-widget',
+    'license': 'BSD-3',
     'keywords': [
         'ipython',
         'jupyter',
@@ -57,6 +58,7 @@ setup_args = {
         'Framework :: IPython',
         'Intended Audience :: Developers',
         'Intended Audience :: Science/Research',
+        'License :: OSI Approved :: BSD License',
         'Topic :: Multimedia :: Graphics',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
